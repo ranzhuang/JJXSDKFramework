@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
   #  The name of the spec should match the name of the file
   spec.name         = "JJXSDKFrameworkSpec"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "dynamic framework to learn"
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #  资源文件
-  spec.source_files  = "JJXSDKDemo.framework/**/*.{h,m}"
+  #  资源文件 001号 坑
+  spec.source_files  = "JJXSDKDemo.framework/Headers/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   #spec.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # bundle路径
+  # bundle路径 
   # spec.resource  = "JJXSDKDemo.framework/*.bundle"
   # spec.resources = "Resources/*.png"
 
