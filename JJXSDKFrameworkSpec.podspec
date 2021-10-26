@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
   #  The name of the spec should match the name of the file
   spec.name         = "JJXSDKFrameworkSpec"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.6"
   spec.summary      = "dynamic framework to learn"
 
   # This description is used to generate tags and improve search results.
