@@ -92,8 +92,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #  资源文件 001号 坑
-  spec.source_files  = "JJXSDKDemo", "JJXSDKDemo.framework/Headers/*.{h,m}"
+  #  资源文件 001号 坑 视乎编译出来的Framework不能使用此方法
+  # spec.source_files  = "JJXSDKDemo", "JJXSDKDemo.framework/Headers/*.{h,m}"
+  #  SDK资源地址 Framework使用此方法
+  spec.vendored_frameworks = "JJXSDKDemo.framework"
   # spec.exclude_files = "Classes/Exclude"
 
   #spec.public_header_files = "Classes/**/*.h"
@@ -107,7 +109,7 @@ Pod::Spec.new do |spec|
   #
 
   # bundle路径 
-  # spec.resource  = "JJXSDKDemo.framework/*.bundle"
+  spec.resource  = "JJXSDKDemo.framework/JJXSDKSource.bundle"
   # spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
