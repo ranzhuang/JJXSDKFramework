@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 //! Project version number for JJXSDKDemo.
 FOUNDATION_EXPORT double JJXSDKDemoVersionNumber;
 
