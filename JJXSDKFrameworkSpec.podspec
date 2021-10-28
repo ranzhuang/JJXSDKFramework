@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   #  资源文件 001号 坑
-  spec.source_files  = "JJXSDKDemo.framework/Headers/*.{h}"
+  spec.source_files  = "JJXSDDemo.frame/**/*", "JJXSDKDemo.framework/Headers/*.{h}"
   #  SDK资源地址
   #spec.vendored_frameworks = "JJXSDKDemo.framework"
   # spec.exclude_files = "Classes/Exclude"
